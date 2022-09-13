@@ -1,4 +1,5 @@
 export type Person = {
+  address: string | null;
   createdAt: Date;
   id: string;
   name: string | null;

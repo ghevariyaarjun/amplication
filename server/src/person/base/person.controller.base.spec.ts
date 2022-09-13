@@ -11,6 +11,7 @@ import { PersonService } from "../person.service";
 const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
+  address: "exampleAddress",
   createdAt: new Date(),
   id: "exampleId",
   name: "exampleName",
@@ -18,6 +19,7 @@ const CREATE_INPUT = {
   updatedAt: new Date(),
 };
 const CREATE_RESULT = {
+  address: "exampleAddress",
   createdAt: new Date(),
   id: "exampleId",
   name: "exampleName",
@@ -26,6 +28,7 @@ const CREATE_RESULT = {
 };
 const FIND_MANY_RESULT = [
   {
+    address: "exampleAddress",
     createdAt: new Date(),
     id: "exampleId",
     name: "exampleName",
@@ -34,6 +37,7 @@ const FIND_MANY_RESULT = [
   },
 ];
 const FIND_ONE_RESULT = {
+  address: "exampleAddress",
   createdAt: new Date(),
   id: "exampleId",
   name: "exampleName",
