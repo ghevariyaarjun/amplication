@@ -6,7 +6,19 @@
     "attributes": "*"
   },
   {
+    "role": "member",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
@@ -18,7 +30,19 @@
     "attributes": "*"
   },
   {
+    "role": "member",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
     "resource": "User",
     "action": "delete:any",
     "attributes": "*"
@@ -30,7 +54,19 @@
     "attributes": "*"
   },
   {
+    "role": "member",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Person",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
     "resource": "Person",
     "action": "read:own",
     "attributes": "*"
@@ -42,7 +78,19 @@
     "attributes": "*"
   },
   {
+    "role": "member",
+    "resource": "Person",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Person",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
     "resource": "Person",
     "action": "update:any",
     "attributes": "*"
@@ -54,7 +102,19 @@
     "attributes": "*"
   },
   {
+    "role": "member",
+    "resource": "Person",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Person",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
     "resource": "Person",
     "action": "read:any",
     "attributes": "*"
