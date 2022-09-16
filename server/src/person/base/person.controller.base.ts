@@ -27,7 +27,7 @@ import { PersonWhereUniqueInput } from "./PersonWhereUniqueInput";
 import { PersonFindManyArgs } from "./PersonFindManyArgs";
 import { PersonUpdateInput } from "./PersonUpdateInput";
 import { Person } from "./Person";
-@swagger.ApiBearerAuth()
+@swagger.ApiBasicAuth()
 @common.UseGuards(defaultAuthGuard.DefaultAuthGuard, nestAccessControl.ACGuard)
 export class PersonControllerBase {
   constructor(

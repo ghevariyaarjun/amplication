@@ -3,12 +3,12 @@ import { DocumentBuilder } from "@nestjs/swagger";
 export const swaggerPath = "api";
 
 export const swaggerDocumentOptions = new DocumentBuilder()
-  .setTitle("My service")
+  .setTitle("amplication")
   .setDescription(
-    '\n\n## Congratulations! Your service resource is ready.\n  \nPlease note that all endpoints are secured with JWT Bearer authentication.\nBy default, your service resource comes with one user with the username "admin" and password "admin".\nLearn more in [our docs](https://docs.amplication.com)'
+    'amplication\n\n## Congratulations! Your service resource is ready.\n  \nPlease note that all endpoints are secured with HTTP Basic authentication.\nBy default, your service resource comes with one user with the username "admin" and password "admin".\nLearn more in [our docs](https://docs.amplication.com)'
   )
-  .setVersion("cc6a9ze5")
-  .addBearerAuth()
+  .setVersion("ufnn3emm")
+  .addBasicAuth()
   .build();
 
 export const swaggerSetupOptions = {
@@ -17,5 +17,5 @@ export const swaggerSetupOptions = {
   },
   customCssUrl: "../swagger/swagger.css",
   customfavIcon: "../swagger/favicon.png",
-  customSiteTitle: "My service",
+  customSiteTitle: "amplication",
 };
